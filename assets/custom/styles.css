@@ -1,0 +1,115 @@
+body {
+  background-color: rgb(21, 25, 37);
+  margin: 0;
+  display: flex;
+}
+
+.circles {
+  width: 230px;
+  height: 230px;
+  background-color: rgb(72, 202, 228);
+  border-radius: 50%;
+  box-shadow: 0 0 12px 3px rgb(72, 202, 228);
+  margin-left: 44%;
+  position: absolute;
+  z-index: -1;
+  left: 1px;
+  bottom: 200px;
+}
+
+img.img-responsive {
+  height: auto;
+  width: 300px;
+  border-radius: 100%;
+}
+.position-absolute {
+  left: 640px;
+  top: 80px;
+}
+
+img.logo {
+  height: auto;
+  width: 180px;
+  margin-top: -20px;
+  margin-left: -70px;
+}
+
+#hello {
+  position: absolute;
+  left: 100px;
+  font-size: 30px;
+  top: 240px;
+  color: rgb(241, 244, 246);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+}
+h2.fname {
+  font-size: 50px;
+  color: rgb(241, 244, 246);
+  position: absolute;
+  top: 300px;
+  left: 460px;
+  letter-spacing: 5px;
+}
+h3.lname {
+  letter-spacing: 5px;
+  font-size: 50px;
+  color: rgb(241, 244, 246);
+  position: absolute;
+  top: 300px;
+  right: 490px;
+}
+
+#nickname {
+  font-size: 30px;
+  color: rgb(241, 244, 246);
+  position: absolute;
+  bottom: 200px;
+  margin-left: 380px;
+}
+h5.motto,
+h6.mottos {
+  color: rgb(72, 202, 228);
+  position: absolute;
+  font-size: 25px;
+  font-weight: bolder;
+}
+h5.motto {
+  bottom: 230px;
+  right: 380px;
+}
+h6.mottos {
+  position: absolute;
+  bottom: 200px;
+  right: 450px;
+}
+button[type="button"] {
+  border-color: rgb(72, 202, 228);
+  border-radius: 5px;
+  background-color: rgb(21, 25, 37);
+  border-width: 1px;
+  position: absolute;
+  bottom: 120px;
+  left: 710px;
+}
+a.infos {
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 100%;
+  padding: 10px;
+  text-decoration: none;
+  float: center;
+  color: white;
+}
+button[type="button"] {
+  color: aliceblue;
+}
+.btn.iconbtn {
+  width: 50px;
+  height: 40px;
+  background-color: rgb(21, 25, 37);
+  border: 10px solid white; /* Remove borders */
+  padding: 0px 16px; /* Some padding */
+  cursor: pointer; /* Mouse pointer on hover */
+  font-size: 500px;
+}

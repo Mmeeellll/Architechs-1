@@ -1,0 +1,187 @@
+.container {
+  background-color: rgb(21, 25, 37);
+  display: auto;
+  margin: 0;
+}
+
+a.page-link {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+}
+a.page-link:hover {
+  color: aqua;
+}
+a.page-link:active {
+  color: grey;
+}
+
+ul.list-inline {
+  margin-top: -125px;
+  right: 105px;
+  position: absolute;
+}
+
+li.list-inline-item {
+  padding: 16px;
+}
+img.im.position-absolute {
+  height: auto;
+  width: 150px;
+  margin-top: -150px;
+  padding-left: 20px;
+}
+.circle.position-absolute {
+  width: 280px;
+  height: 280px;
+  background-color: rgb(21, 25, 37);
+  border: 10px solid rgb(72, 202, 228);
+  border-radius: 50%;
+  box-shadow: 0 0 5px 3px rgb(72, 202, 228);
+  bottom: 200px;
+  left: 190px;
+  z-index: -1;
+}
+.img.position-absolute {
+  display: block;
+  width: 300px;
+  height: auto;
+  left: 185px;
+  top: 65px;
+  border-radius: 100%;
+}
+div.box1 {
+  position: absolute;
+  right: 500px;
+  bottom: 60px;
+}
+
+div.box2 {
+  position: absolute;
+  right: 100px;
+  bottom: 60px;
+}
+div.box1,
+div.box2 {
+  width: 380px;
+  height: 300px;
+  background-color: rgb(36, 39, 52);
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px;
+}
+
+div.box3 {
+  width: 380px;
+  height: 160px;
+  background-color: rgb(36, 39, 52);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50px;
+  position: absolute;
+  right: 99px;
+  top: 120px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#exp {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 140px;
+  margin-left: 650px;
+  font-size: 27px;
+}
+em.colored {
+  color: rgb(72, 202, 228);
+}
+
+button[type="button"] {
+  border-color: rgb(72, 202, 228);
+  border-radius: 5px;
+  background-color: rgb(21, 25, 37);
+  border-width: 4px;
+  position: absolute;
+  bottom: 100px;
+  left: 220px;
+}
+a.infos {
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+  float: center;
+  color: white;
+}
+.html {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  left: 30px;
+}
+.css {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  left: 150px;
+  top: 50px;
+}
+.js {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  right: 18px;
+  top: 80px;
+}
+.sql {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  left: 100px;
+  top: 170px;
+}
+.fig {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+.py {
+  width: 80px;
+  height: auto;
+  position: absolute;
+  right: 85px;
+  top: 165px;
+}
+.fig {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  left: 170px;
+  top: 250px;
+}
+.label,
+.hob {
+  text-align: center;
+  margin: 2px;
+  font-size: 30px;
+  color: #a7fdcc;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+p#arcs {
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+#myhob {
+  margin-top: 25px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
