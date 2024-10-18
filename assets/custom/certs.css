@@ -1,41 +1,42 @@
-.container {
+.container-fluid {
   background-color: rgb(21, 25, 37);
   display: auto;
-  margin: 0;
+  margin: 0 auto;
+  height: 0vh;
 }
 a.page-link {
   text-decoration: none;
-  font-family: "inter tight";
+  font-family: 'inter tight';
   font-size: 20px;
   color: whitesmoke;
 }
 a.page-link:hover {
-  color: #48cae4;
-}
-
-ul.list-inline {
-  margin-top: 20px;
-  right: 70px;
-  position: absolute;
+  color: rgb(72, 202, 228);
 }
 a.page-link:active {
   color: grey;
 }
-a#proj:visited {
-  color: #48cae4;
-}
-a#proj {
-  border: 2px solid #48cae4;
-  border-width: ;
-  padding: 5px;
-  border-radius: 15px;
-  width: 130px;
-  text-align: center;
+ul.list-inline {
+  margin-top: 30px;
+  right: 80px;
+  position: absolute;
 }
 
 li.list-inline-item {
-  padding: 18px;
+  padding: 15px;
 }
+
+a#certs:visited {
+  color: rgb(72, 202, 228);
+}
+a#certs {
+  border: 2px solid rgb(72, 202, 228);
+  padding: 2px;
+  border-radius: 15px;
+  width: 160px;
+  text-align: center;
+}
+
 img.im.position-absolute {
   height: auto;
   width: 180px;
@@ -49,11 +50,11 @@ img.im.position-absolute {
   border: 5px solid rgb(72, 202, 228);
   border-radius: 50%;
   box-shadow: 0 0 5px 3px rgb(72, 202, 228), 0 0 10px rgb(72, 202, 228),
-    0 0 10px rgb(72, 202, 228), 0 0 30px rgb(72, 202, 228),
-    0 0 30px rgb(72, 202, 228);
-  bottom: 170px;
-  left: 190px;
-  z-index: -1;
+  0 0 10px rgb(72, 202, 228), 0 0 30px rgb(72, 202, 228),
+  0 0 30px rgb(72, 202, 228);
+bottom: 170px;
+left: 190px;
+z-index: -1;
 }
 .img.position-absolute {
   display: block;
@@ -64,64 +65,36 @@ img.im.position-absolute {
   border-radius: 100%;
 }
 
-div.image-container {
-  width: 850px;
-  height: 500px;
-  background-color: rgb(36, 39, 52);
-  border-radius: 25px;
-  padding: 20px;
-  margin: 20px;
-  position: absolute;
-  right: 65px;
-  bottom: 60px;
-}
-h1.project {
-  color: #a7fdcc;
-  font-size: 30px;
-  font-family: "inter tight";
-  letter-spacing: 2px;
-  font-weight: bolder;
-  text-align: center;
-}
-#coffe,
-#database {
-  width: 300px;
+.image {
+  width: 250px;
   height: auto;
 }
-#work,
-#figs {
-  size-adjust: ;
-  width: 156px;
-  height: 391px;
-  border-radius: 20px;
+.image.a1 {
+  display: flex;
+  position: relative;
+  left: 1035px;
+  top: 150px;
+  padding-bottom: 50px;
+  bo
 }
-#work {
-  margin-left: 450px;
-  margin-top: -20px;
-  box-shadow: 5px 7px 5px 3px rgba(31, 31, 31, 0.948);
+.image.a2 {
+  display: flex;
+  position: relative;
+  left: 430px;
+  top: -300px;
+  padding-bottom: 50px;
 }
-#figs {
-  margin-left: 250px;
-  margin-top: -20px;
-  box-shadow: 5px 7px 5px 3px rgba(31, 31, 31, 0.948);
+.image.a3 {
+  display: block;
+  position: relative;
+  left: 730px;
+  margin-top: -650px;
+  padding-bottom: 50px;
 }
-#coffe {
-  box-shadow: 5px 7px 5px 3px rgba(31, 31, 31, 0.948);
-  margin-left: 60px;
-  border-radius: 20px;
-  margin-top: 20px;
-}
-#database {
-  margin-top: 185px;
-  margin-left: -105px;
-  box-shadow: 5px 7px 5px 3px rgba(31, 31, 31, 0.948);
-  border-radius: 30px;
-}
+
 /*This part is for image interface*/
-img#coffe:hover,
-img#database:hover,
-img#work:hover,
-img#figs:hover {
+
+.image:hover {
   transform: scale(1.1);
 }
 
@@ -137,11 +110,11 @@ img#figs:hover {
   overflow: auto;
 }
 .pops {
-  width: 550px;
+  width: 650px;
   height: auto;
   position: absolute;
   left: 500px;
-  top: 200px;
+  top: 100px;
 }
 .container .popup-image span {
   position: absolute;

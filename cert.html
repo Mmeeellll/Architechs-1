@@ -3,15 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Projects</title>
+    <title>My Certificates</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/custom/proj.css" />
+    <link rel="stylesheet" href="assets/custom/certs.css" />
   </head>
-  <body class="container">
+  <body class="container-fluid">
     <header>
-      <div class="container">
-        <img class="im position-absolute" src="img/123.png" alt="logo" />
-      </div>
+      <img class="im position-absolute" src="img/123.png" alt="logo" />
       <nav>
         <ul class="list-inline">
           <li class="list-inline-item">
@@ -24,15 +22,15 @@
             <a class="page-link" href="nerskills.html"><b>SKILLS</b></a>
           </li>
           <li class="list-inline-item">
-            <a class="page-link" id="proj" href="projectindext.html"
-              ><b>PROJECTS</b></a
+            <a class="page-link" href="projectindext.html"><b>PROJECTS</b></a>
+          </li>
+          <li class="list-inline-item">
+            <a class="page-link" id="certs" href="cert.html">
+              <b>CERTIFICATES</b></a
             >
           </li>
           <li class="list-inline-item">
-            <a class="page-link" href="cert.html"><b>CERTIFICATES</b></a>
-          </li>
-          <li class="list-inline-item">
-            <a class="page-link" href="cert.html"><b>CONTACTS</b></a>
+            <a class="page-link" href="contact.html"><b>CONTACTS</b></a>
           </li>
         </ul>
       </nav>
@@ -42,42 +40,21 @@
       <div class="circle position-absolute"></div>
       <img class="img position-absolute" src="img/dp.png" alt="my photo" />
 
+      <!--Certificates-->
       <div class="container">
         <div class="image-container">
-          <h1 class="project">PROJECTS</h1>
-          <img
-            class="position-absolute"
-            id="coffe"
-            src="img/coffee.png"
-            alt="exp"
-          />
-          <img
-            class="img position-absolute"
-            id="database"
-            src="img/Database.png"
-            alt="myphoto"
-          />
-          <img
-            class="img position-absolute"
-            id="work"
-            src="img/mywork.png"
-            alt="myphoto"
-          />
-          <img
-            class="img position-absolute"
-            id="figs"
-            src="img/lieinfo.jpg"
-            alt="myphoto"
-          />
+          <img src="img/introhtm;.png" alt="" class="image a1" />
+          <img src="img/css-html.png" alt="" class="image a1" />
+          <img src="img/market.png" alt="" class="image a2" />
+          <img src="img/funnels.png" alt="" class="image a2" />
+          <img src="img/tshrt.png" alt="" class="image a3" />
         </div>
-
         <div class="popup-image">
           <span>&times;</span>
-          <img class="pops" src="img/coffee.png" alt="" />
+          <img class="pops" src="img/introhtm;.png" alt="" />
         </div>
       </div>
     </section>
-
     <script>
       document.querySelectorAll(".image-container img").forEach((image) => {
         image.onclick = () => {

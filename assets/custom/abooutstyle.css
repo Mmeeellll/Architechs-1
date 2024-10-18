@@ -1,24 +1,37 @@
 .container {
   background-color: rgb(21, 25, 37);
+  margin: 0 auto;
   display: auto;
-  margin: 0;
+  height: 0vh;
 }
 
 a.page-link {
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  font-family: "inter";
   color: whitesmoke;
 }
 a.page-link:hover {
-  color: aqua;
+  color: rgb(72, 202, 228);
 }
 a.page-link:active {
   color: grey;
 }
 
+a#about:visited {
+  color: rgb(72, 202, 228);
+}
+a#about {
+  border: 2px solid rgb(72, 202, 228);
+  border-width: 2px;
+  padding: 1px;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+}
+
 ul.list-inline {
-  margin-top: -125px;
+  margin-top: -115px;
   right: 105px;
   position: absolute;
 }
@@ -30,16 +43,18 @@ img.im.position-absolute {
   height: auto;
   width: 150px;
   margin-top: -150px;
-  padding-left: 20px;
+  margin-left: -90px;
 }
 .circle.position-absolute {
   width: 280px;
   height: 280px;
   background-color: rgb(21, 25, 37);
-  border: 10px solid rgb(72, 202, 228);
+  border: 5px solid rgb(72, 202, 228);
   border-radius: 50%;
-  box-shadow: 0 0 5px 3px rgb(72, 202, 228);
-  bottom: 200px;
+  box-shadow: 0 0 5px 3px rgb(72, 202, 228), 0 0 10px rgb(72, 202, 228),
+    0 0 10px rgb(72, 202, 228), 0 0 30px rgb(72, 202, 228),
+    0 0 30px rgb(72, 202, 228);
+  bottom: 170px;
   left: 190px;
   z-index: -1;
 }
@@ -48,7 +63,7 @@ img.im.position-absolute {
   width: 300px;
   height: auto;
   left: 185px;
-  top: 65px;
+  top: 100px;
   border-radius: 100%;
 }
 div.box1 {
@@ -83,7 +98,7 @@ div.box3 {
   right: 99px;
   top: 120px;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "inter tight";
   text-align: center;
 }
 
@@ -91,7 +106,7 @@ div.box3 {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 140px;
-  margin-left: 650px;
+  margin-left: 580px;
   font-size: 27px;
 }
 em.colored {
@@ -100,88 +115,38 @@ em.colored {
 
 button[type="button"] {
   border-color: rgb(72, 202, 228);
-  border-radius: 5px;
+  border-radius: 8px;
   background-color: rgb(21, 25, 37);
   border-width: 4px;
-  position: absolute;
-  bottom: 100px;
-  left: 220px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-a.infos {
-  font-size: 20px;
-  padding: 20px;
-  text-decoration: none;
-  float: center;
-  color: white;
-}
-.html {
-  width: 100px;
-  height: auto;
-  position: absolute;
-  left: 30px;
-}
-.css {
-  width: 100px;
-  height: auto;
-  position: absolute;
-  left: 150px;
-  top: 50px;
-}
-.js {
-  width: 100px;
-  height: auto;
-  position: absolute;
-  right: 18px;
-  top: 80px;
-}
-.sql {
-  width: 100px;
-  height: auto;
-  position: absolute;
-  left: 100px;
-  top: 170px;
-}
-.fig {
-  width: 100px;
-  height: auto;
-  position: absolute;
-  left: 100px;
-  top: 150px;
-}
-.py {
-  width: 80px;
-  height: auto;
-  position: absolute;
-  right: 85px;
-  top: 165px;
-}
-.fig {
-  width: 100px;
-  height: auto;
-  position: absolute;
-  left: 170px;
-  top: 250px;
-}
+
 .label,
 .hob {
-  text-align: center;
-  margin: 2px;
-  font-size: 30px;
   color: #a7fdcc;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  font-family: "inter tight";
+  letter-spacing: 2px;
+  font-weight: bolder;
+  text-align: center;
 }
-p#arcs {
+ul#arcs {
   color: white;
   text-align: center;
   line-height: 20px;
   font-size: 16px;
 }
-
+.me {
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 30px;
+  font-family: "inter tight";
+}
 #myhob {
   margin-top: 25px;
   font-size: 20px;
   text-align: center;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "inter tight";
 }
