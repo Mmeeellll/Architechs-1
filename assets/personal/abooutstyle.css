@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(21, 25, 37);
+    margin: 0;
+    display: block;
+  }
+
+  img{
+    border-radius: 0px;
+    display: block;
+    margin-top: 80px;
+    height: auto;
+    width: 100px;
+}
+
+.circles {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(72, 202, 228);
+    border-radius: 50%;
+    box-shadow: 0 0 12px 3px rgb(72, 202, 228);
+    margin-left: 44%;
+    position: absolute;
+    z-index: -1;
+    left: 1px;
+    bottom: 145px;
+    top: 250px;
+  }
