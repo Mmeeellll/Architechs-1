@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(21, 25, 37);
+    margin: 0;
+    display: block;
+  }
+  
+img{
+    border-radius: 0px;
+    display: block;
+    margin-top: 80px;
+    height: auto;
+    width: 100px;
+}
+
+  .circles {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(72, 202, 228);
+    border-radius: 50%;
+    box-shadow: 0 0 12px 3px rgb(72, 202, 228);
+    margin-left: 44%;
+    position: absolute;
+    z-index: -1;
+    left: 1px;
+    bottom: 145px;
+    top: 250px;
+  }
+  
+  img.img-responsive {
+    height: auto;
+    width: 380px;
+    border-radius: 100%;
+    border: 5px solid transparent; 
+    position: absolute;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 650px;
+    background-color: rgb(0, 0, 0,);
+    top: -80px;
+  }
+  .position-absolute {
+    left: 620px;
+    top: 8px;
+  }
+  
+  img.logo {
+    height: auto;
+    width: 140px;
+    margin-bottom: 200px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 100px;
+    display: block;
+    position: absolute;
+    top: 20px;
+  }
+  
+  #hello {
+    position: absolute;
+    left: 140px;
+    font-size: 30px;
+    top: 200px;
+    color: rgb(241, 244, 246);
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+  }
+
+  h2.fname {
+    font-size: 70px;
+    color: rgb(241, 244, 246);
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+  }
+
+  h3.lname {
+    font-size: 55px;
+    color: rgb(241, 244, 246);
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 250px;
+    right: 400px;
+  }
+  
+  #nickname {
+    font-size: 30px;
+    color: rgb(241, 244, 246);
+    position: absolute;
+    bottom: 150px;
+    margin-left: 600px;
+    top: 400px;
+  }
+
+  h5.motto, h6.mottos {
+    color: rgb(72, 202, 228);
+    position: absolute;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+  h5.motto {
+    bottom: 195px;
+    right: 350px;
+    top: 400px;
+  }
+  h6.mottos {
+    position: absolute;
+    bottom: 140px;
+    right: 410px;
+    top: 420px;
+  }
+
+  button[type="button"] {
+    border-color: rgb(72, 202, 228);
+    border-radius: 10px;
+    background-color: rgb(21, 25, 37);
+    border-width: 4px;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    bottom: 180px;
+    left: 770px;
+  } 
+
+  .fa-house
+  {
+    font-size: 30px;
+    margin-left: 600px;
+    margin-top: 0px;
+    color: white;
+  }
+
+  .fa-circle-info
+  {
+    font-size: 35px;
+    margin-left: 45px;
+    color: white;
+    
+  }
+
+  .fa-certificate
+  {
+    font-size: 35px;
+    margin-left: 45px;
+    color: white;
+    
+  }
+
+  .fa-circle-check
+  {
+    font-size: 35px;
+    margin-left: 45px;
+    color: white;
+
+  }
+
+  .fa-users-line
+  {
+    margin-left: 45px;
+    font-size: 35px;
+    margin-top: 650px;
+    color: skyblue;
+
+  }
+
+  .fa-circle-question
+  {
+    font-size: 35px;
+    margin-left: 45px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+   color: white;
+   
+  }
+
+  a.infos {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: 100%;
+    padding: 15px;
+    text-decoration: none;
+    float: center;
+    color: white;
+  }
