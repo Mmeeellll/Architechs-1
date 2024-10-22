@@ -1,4 +1,4 @@
-.container-fluid {
+.container {
   background-color: rgb(21, 25, 37);
   display: auto;
   margin: 0 auto;
@@ -7,14 +7,14 @@
 a.page-link {
   text-decoration: none;
   font-family: "inter tight";
-  font-size: 20px;
+  font-size: 30px;
   color: whitesmoke;
 }
 a.page-link:hover {
   color: rgb(72, 202, 228);
 }
 ul.list-inline {
-  margin-top: 20px;
+  margin-top: 30px;
   right: 80px;
   position: absolute;
 }
@@ -23,7 +23,7 @@ a.page-link:active {
 }
 
 li.list-inline-item {
-  padding: 15px;
+  padding: 20px;
 }
 
 a#skils:visited {
@@ -34,41 +34,29 @@ a#skils {
   padding: 2px;
   border-radius: 10px;
   margin: 8px;
-  width: 100px;
+  width: 150px;
   text-align: center;
 }
 
 img.im.position-absolute {
   height: auto;
-  width: 180px;
+  width: 250px;
   margin-top: -10px;
-  padding-left: 20px;
+  margin-left: -500px;
 }
-.circle.position-absolute {
-  width: 280px;
-  height: 280px;
-  background-color: rgb(21, 25, 37);
-  border: 5px solid rgb(72, 202, 228);
-  border-radius: 50%;
-  box-shadow: 0 0 5px 3px rgb(72, 202, 228), 0 0 10px rgb(72, 202, 228),
-    0 0 10px rgb(72, 202, 228), 0 0 30px rgb(72, 202, 228),
-    0 0 30px rgb(72, 202, 228);
-  bottom: 170px;
-  left: 190px;
-  z-index: -1;
-}
+
 .img.position-absolute {
   display: block;
-  width: 300px;
+  width: 520px;
   height: auto;
-  left: 185px;
-  top: 100px;
+  left: 10%;
+  top: 20%;
   border-radius: 100%;
 }
 
 div.box2 {
-  width: 850px;
-  height: 500px;
+  width: 1200px;
+  height: 750px;
   background-color: rgb(36, 39, 52);
   border-radius: 25px;
   padding: 20px;
@@ -76,18 +64,18 @@ div.box2 {
   position: absolute;
   right: 65px;
   bottom: 60px;
-  border: 5px solid;
+  border: 2px solid #48cae4;
 }
 
 .image-container .img01 {
   display: flex;
-  width: 180px;
+  width: 280px;
   height: auto;
   cursor: pointer;
 }
 .box2 h1 {
   color: #a7fdcc;
-  font-size: 30px;
+  font-size: 50px;
   font-family: "inter tight";
   letter-spacing: 2px;
   font-weight: bolder;
@@ -104,11 +92,11 @@ div.box2 {
   margin-left: 50px;
 }
 .img02 {
-  width: 250px;
-  height: 170px;
+  width: 350px;
+  height: 230px;
   position: relative;
-  left: -80px;
-  top: 10px;
+  left: -10%;
+  margin-top: 4%;
 }
 
 .img01:hover,
@@ -119,4 +107,29 @@ div.box2 {
 .box2 .image-container .img02 img {
   object-fit: cover;
   transition: 2s linear;
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    max-width: 760px;
+  }
+}
+@media (max-width: 760px) {
+  .container {
+    max-width: 640px;
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+@media (max-width: 1536px) {
+  .container {
+    max-width: 100%;
+  }
 }

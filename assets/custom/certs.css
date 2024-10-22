@@ -1,13 +1,13 @@
 .container-fluid {
   background-color: rgb(21, 25, 37);
   display: auto;
-  margin: 0 auto;
+  margin: 0;
   height: 0vh;
 }
 a.page-link {
   text-decoration: none;
-  font-family: 'inter tight';
-  font-size: 20px;
+  font-family: "inter tight";
+  font-size: 30px;
   color: whitesmoke;
 }
 a.page-link:hover {
@@ -23,7 +23,7 @@ ul.list-inline {
 }
 
 li.list-inline-item {
-  padding: 15px;
+  padding: 25px;
 }
 
 a#certs:visited {
@@ -33,65 +33,69 @@ a#certs {
   border: 2px solid rgb(72, 202, 228);
   padding: 2px;
   border-radius: 15px;
-  width: 160px;
+  width: 250px;
   text-align: center;
 }
 
 img.im.position-absolute {
   height: auto;
-  width: 180px;
-  margin-top: -10px;
-  padding-left: 20px;
+  width: 300px;
+  margin-top: -1%;
+  padding-left: 1%;
 }
 .circle.position-absolute {
-  width: 280px;
-  height: 280px;
+  width: 400px;
+  height: 400px;
   background-color: rgb(21, 25, 37);
   border: 5px solid rgb(72, 202, 228);
   border-radius: 50%;
   box-shadow: 0 0 5px 3px rgb(72, 202, 228), 0 0 10px rgb(72, 202, 228),
-  0 0 10px rgb(72, 202, 228), 0 0 30px rgb(72, 202, 228),
-  0 0 30px rgb(72, 202, 228);
-bottom: 170px;
-left: 190px;
-z-index: -1;
+    0 0 10px rgb(72, 202, 228), 0 0 30px rgb(72, 202, 228),
+    0 0 30px rgb(72, 202, 228);
+  bottom: 18%;
+  left: 15%;
+  z-index: -1;
 }
 .img.position-absolute {
-  display: block;
-  width: 300px;
+  width: 500px;
   height: auto;
-  left: 185px;
-  top: 100px;
+  left: 13%;
+  top: 14.2%;
   border-radius: 100%;
 }
 
 .image {
-  width: 250px;
+  width: 450px;
   height: auto;
+  padding: 15px;
 }
-.image.a1 {
-  display: flex;
-  position: relative;
-  left: 1035px;
-  top: 150px;
-  padding-bottom: 50px;
-  bo
+.container {
+  margin-right: 0px;
+  margin-left: 0;
+  padding-top: 10%;
 }
-.image.a2 {
-  display: flex;
-  position: relative;
-  left: 430px;
-  top: -300px;
-  padding-bottom: 50px;
+.image-container {
+  padding-left: 60%;
 }
 .image.a3 {
-  display: block;
-  position: relative;
-  left: 730px;
-  margin-top: -650px;
-  padding-bottom: 50px;
+  position: absolute;
+  left: 77%;
 }
-
+.image.a4 {
+  position: absolute;
+  left: 77%;
+  top: 23%;
+}
+.image.a5 {
+  position: absolute;
+  top: 38%;
+  left: 57%;
+}
+.image.a1,
+.image.a2 {
+  position: relative;
+  left: 10%;
+}
 /*This part is for image interface*/
 
 .image:hover {

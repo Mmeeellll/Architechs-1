@@ -1,4 +1,4 @@
-.container {
+body.container {
   background-color: rgb(21, 25, 37);
   display: auto;
   margin: 0;
@@ -6,7 +6,7 @@
 a.page-link {
   text-decoration: none;
   font-family: "inter tight";
-  font-size: 20px;
+  font-size: 32px;
   color: whitesmoke;
 }
 a.page-link:hover {
@@ -27,57 +27,45 @@ a#proj:visited {
 a#proj {
   border: 2px solid #48cae4;
   border-width: ;
-  padding: 5px;
+  padding: 2px;
   border-radius: 15px;
-  width: 130px;
+  width: 180px;
   text-align: center;
 }
 
 li.list-inline-item {
-  padding: 18px;
+  padding: 20px;
 }
 img.im.position-absolute {
   height: auto;
-  width: 180px;
+  width: 250px;
   margin-top: -10px;
   padding-left: 20px;
 }
-.circle.position-absolute {
-  width: 280px;
-  height: 280px;
-  background-color: rgb(21, 25, 37);
-  border: 5px solid rgb(72, 202, 228);
-  border-radius: 50%;
-  box-shadow: 0 0 5px 3px rgb(72, 202, 228), 0 0 10px rgb(72, 202, 228),
-    0 0 10px rgb(72, 202, 228), 0 0 30px rgb(72, 202, 228),
-    0 0 30px rgb(72, 202, 228);
-  bottom: 170px;
-  left: 190px;
-  z-index: -1;
-}
+
 .img.position-absolute {
-  display: block;
-  width: 300px;
+  width: 510px;
   height: auto;
-  left: 185px;
-  top: 100px;
+  left: 12%;
+  top: 15%;
   border-radius: 100%;
 }
 
 div.image-container {
-  width: 850px;
-  height: 500px;
+  width: 1200px;
+  height: 700px;
   background-color: rgb(36, 39, 52);
   border-radius: 25px;
   padding: 20px;
   margin: 20px;
   position: absolute;
   right: 65px;
-  bottom: 60px;
+  bottom: 10%;
+  border: 2px solid #48cae4;
 }
 h1.project {
   color: #a7fdcc;
-  font-size: 30px;
+  font-size: 50px;
   font-family: "inter tight";
   letter-spacing: 2px;
   font-weight: bolder;
@@ -85,35 +73,35 @@ h1.project {
 }
 #coffe,
 #database {
-  width: 300px;
+  width: 420px;
   height: auto;
 }
 #work,
 #figs {
   size-adjust: ;
-  width: 156px;
-  height: 391px;
+  width: 230px;
+  height: 551px;
   border-radius: 20px;
 }
 #work {
-  margin-left: 450px;
-  margin-top: -20px;
+  margin-left: 62%;
+  margin-top: 2%;
   box-shadow: 5px 7px 5px 3px rgba(31, 31, 31, 0.948);
 }
 #figs {
-  margin-left: 250px;
-  margin-top: -20px;
+  margin-left: 38%;
+  margin-top: 2%;
   box-shadow: 5px 7px 5px 3px rgba(31, 31, 31, 0.948);
 }
 #coffe {
   box-shadow: 5px 7px 5px 3px rgba(31, 31, 31, 0.948);
-  margin-left: 60px;
+  margin-left: 8%;
   border-radius: 20px;
-  margin-top: 20px;
+  margin-top: 2%;
 }
 #database {
-  margin-top: 185px;
-  margin-left: -105px;
+  margin-top: 24%;
+  margin-left: -2%;
   box-shadow: 5px 7px 5px 3px rgba(31, 31, 31, 0.948);
   border-radius: 30px;
 }
@@ -137,11 +125,11 @@ img#figs:hover {
   overflow: auto;
 }
 .pops {
-  width: 550px;
+  width: 900px;
   height: auto;
   position: absolute;
-  left: 500px;
-  top: 200px;
+  left: 33%;
+  top: 20%;
 }
 .container .popup-image span {
   position: absolute;
@@ -172,5 +160,31 @@ img#figs:hover {
   img#work,
   img#figs {
     width: 95%;
+  }
+}
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    max-width: 760px;
+  }
+}
+@media (max-width: 760px) {
+  .container {
+    max-width: 640px;
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+@media (max-width: 1536px) {
+  .container {
+    max-width: 100%;
   }
 }
