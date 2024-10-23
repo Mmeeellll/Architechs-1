@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #151925;
+  width: 100%;
+}
+
+.container.icon1 .list-group-item {
+  display: inline-block;
+  padding: 15px;
+}
+.container.icon1 .lists {
+  position: absolute;
+  bottom: 10%;
+  margin-left: 43%;
+}
+.container .container.icon1 a {
+  color: whitesmoke;
+}
+.container .container.icon1 a:hover {
+  color: rgb(72, 202, 228);
+}
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  padding: 20px;
+  margin-left: 50px;
+}
+div.box2 {
+  width: 2200px;
+  height: 1000px;
+  position: absolute;
+  right: 13%;
+  bottom: 24%;
+}
+.box2 img {
+  justify-items: center;
+  justify-content: space-between;
+  width: 700px;
+  height: auto;
+  padding: 15px;
+  border: 2px solid #48cae4;
+  cursor: pointer;
+}
+.box2 img:hover{
+  transform: scale(1.1);
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .project1 img {
+    height: 150px;
+    width: 230px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+
+  .project2 img {
+    height: 150px;
+    width: 230px;
+    margin-left: 40px;
+    margin-top: 220px;
+    position: absolute;
+  }
+
+  .project3 img {
+    height: 150px;
+    width: 230px;
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 40px;
+  }
+
+  .project4 img {
+    height: 150px;
+    width: 230px;
+    margin-left: 40px;
+    margin-top: 540px;
+    position: absolute;
+  }
+
+  nav li a svg {
+    width: 20px;
+    height: 30px;
+  }
+
+  nav ul {
+    margin-top: -550px;
+    margin-left: -405px;
+  }
+}

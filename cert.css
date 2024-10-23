@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a8dbfa;
+  width: 100%;
+}
+
+.container {
+  margin-top: 550px;
+  margin-left: 200px;
+  height: 20px;
+}
+.container.icon1 .list-group-item {
+  display: inline-block;
+  padding: 15px;
+}
+.container.icon1 .list-inline {
+  left: 40%;
+  top: 85%;
+}
+.container .container.icon1 a {
+  color: whitesmoke;
+}
+.container .container.icon1 a:hover {
+  color: rgb(72, 202, 228);
+}
+
+.cert1 img {
+  height: 250px;
+  width: 430px;
+  position: absolute;
+  margin-top: -540px;
+  margin-left: 200px;
+}
+
+.cert2 img {
+  height: 250px;
+  width: 430px;
+  margin-left: 700px;
+  margin-top: -540px;
+  position: absolute;
+}
+
+.cert3 img {
+  height: 250px;
+  width: 430px;
+  position: absolute;
+  margin-top: -280px;
+  margin-left: 200px;
+}
+
+.cert4 img {
+  height: 250px;
+  width: 430px;
+  margin-left: 700px;
+  margin-top: -280px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 768px) {
+  .cert1 img {
+    height: 150px;
+    width: 230px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+
+  .cert2 img {
+    height: 150px;
+    width: 230px;
+    margin-left: 40px;
+    margin-top: 220px;
+    position: absolute;
+  }
+
+  .cert3 img {
+    height: 150px;
+    width: 230px;
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 40px;
+  }
+
+  .cert4 img {
+    height: 150px;
+    width: 230px;
+    margin-left: 40px;
+    margin-top: 540px;
+    position: absolute;
+  }
+
+  nav li a svg {
+    width: 20px;
+    height: 30px;
+  }
+
+  nav ul {
+    margin-top: -550px;
+    margin-left: -405px;
+  }
+}
