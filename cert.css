@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -9,18 +10,14 @@ body {
   width: 100%;
 }
 
-.container {
-  margin-top: 550px;
-  margin-left: 200px;
-  height: 20px;
-}
 .container.icon1 .list-group-item {
   display: inline-block;
   padding: 15px;
 }
-.container.icon1 .list-inline {
-  left: 40%;
-  top: 85%;
+.container.icon1 .lists {
+  position: absolute;
+  bottom: 10%;
+  margin-left: 43%;
 }
 .container .container.icon1 a {
   color: whitesmoke;
@@ -28,41 +25,37 @@ body {
 .container .container.icon1 a:hover {
   color: rgb(72, 202, 228);
 }
-
-.cert1 img {
-  height: 250px;
-  width: 430px;
-  position: absolute;
-  margin-top: -540px;
-  margin-left: 200px;
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  padding: 20px;
+  margin-left: 50px;
 }
-
-.cert2 img {
-  height: 250px;
-  width: 430px;
-  margin-left: 700px;
-  margin-top: -540px;
+div.box2 {
+  width: 2200px;
+  height: 1000px;
   position: absolute;
+  right: 13%;
+  bottom: 24%;
 }
-
-.cert3 img {
-  height: 250px;
-  width: 430px;
-  position: absolute;
-  margin-top: -280px;
-  margin-left: 200px;
+.box2 img {
+  justify-items: center;
+  justify-content: space-between;
+  width: 700px;
+  height: auto;
+  padding: 15px;
+  border: 2px solid #151925;
+  cursor: pointer;
 }
-
-.cert4 img {
-  height: 250px;
-  width: 430px;
-  margin-left: 700px;
-  margin-top: -280px;
-  position: absolute;
+.box2 img:hover{
+  transform: scale(1.1);
+}
 }
 
 @media only screen and (max-width: 768px) {
-  .cert1 img {
+  .project1 img {
     height: 150px;
     width: 230px;
     position: absolute;
@@ -70,7 +63,7 @@ body {
     margin-left: 40px;
   }
 
-  .cert2 img {
+  .project2 img {
     height: 150px;
     width: 230px;
     margin-left: 40px;
@@ -78,7 +71,7 @@ body {
     position: absolute;
   }
 
-  .cert3 img {
+  .project3 img {
     height: 150px;
     width: 230px;
     position: absolute;
@@ -86,7 +79,7 @@ body {
     margin-left: 40px;
   }
 
-  .cert4 img {
+  .project4 img {
     height: 150px;
     width: 230px;
     margin-left: 40px;
