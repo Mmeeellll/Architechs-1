@@ -26,6 +26,29 @@
     transition: all 0.5s ease;
  }
  
+ .logo{
+    font-size: 3rem;
+    color: var(--snd-bg-color);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-left: 2%;
+    margin-top: 1%;
+ }
+
+.archi img {
+    width: 80px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    left: 2%;
+    top: 20%;
+    margin-left: 20px;
+}
+
+.archi img:hover {
+    transform: scale(1.05);
+}
 .navbar {
     display: none;
     position: absolute;
