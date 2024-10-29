@@ -90,7 +90,7 @@
 
  section{
     min-height: 100vh;
-    padding: 1orem 9% 2rem;
+    padding: 1rem 9% 2rem;
  }
 
  .logo{
@@ -99,7 +99,23 @@
     font-weight: 700;
     cursor: pointer;
     transition: 0.3s ease;
+    margin-left: 2%;
+    margin-top: 1%;
  }
+
+.archi img {
+    width: 80px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    left: 2%;
+    top: 20%;
+    margin-left: 20px;
+}
+
+.archi img:hover {
+    transform: scale(1.05);
+}
 
 .logo:hover {
     transform: scale(1.05);
@@ -436,6 +452,7 @@ span {
 }
 
 .contact .heading {
+    margin: 8rem;
     text-align: center;
 }
 
@@ -550,6 +567,9 @@ span {
     .footer {
         padding: 2rem 3%;
     }
+    .archi img {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 991px) {
@@ -608,6 +628,9 @@ span {
     .skills h3 {
         margin-bottom: 3rem;
     }
+    .archi img {
+        width: 70px;
+    }
 }
 
 @media (max-width: 617px) {
@@ -624,6 +647,9 @@ span {
         padding: 17px;
         font-size: 22px;
     }
+    .archi img {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 617px) {
@@ -634,5 +660,5 @@ span {
         display: block;
         padding: 17px;
         font-size: 22px;
-    }
+    }  
 }
