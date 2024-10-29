@@ -65,20 +65,19 @@
   cursor: pointer;
 }
 
-.menu-toggle:checked + #menu-icon + .navbar {
-  display: flex;
-}
-
 .architects img {
-  width: 100px;
+  width: 80px;
   height: auto;
   display: flex;
   position: absolute;
-  left: 2%;
-  top: 25%;
+  left: 2rem;
+  top: 2rem;
 }
 .architects img:hover {
   transform: scale(1.05);
+}
+.menu-toggle:checked + #menu-icon + .navbar {
+  display: flex;
 }
 
 :root {
@@ -103,15 +102,16 @@ section {
   padding: 1orem 9% 2rem;
 }
 
-.logo {
-  font-size: 3rem;
-  color: var(--snd-bg-color);
-  font-weight: 700;
-  cursor: pointer;
-  transition: 0.3s ease;
-  margin-left: 5%;
-  margin-top: 1%;
-}
+
+.logo{
+    font-size: 3rem;
+    color: var(--snd-bg-color);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-left: 2%;
+    margin-top: 1%;
+ }
 
 .logo:hover {
   transform: scale(1.05);

@@ -25,6 +25,28 @@
   transition: all 0.5s ease;
 }
 
+.logo {
+  font-size: 3rem;
+  color: var(--snd-bg-color);
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+.archi img {
+  width: 8%;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 1%;
+  left: 2%;
+}
+
+.archi img:hover {
+  transform: scale(1.05);
+}
 .navbar {
   display: none;
   position: absolute;
@@ -65,14 +87,6 @@
   cursor: pointer;
 }
 
-.architects img {
-  width: 100px;
-  height: auto;
-  display: flex;
-  position: absolute;
-  left: 2%;
-  top: 25%;
-}
 .menu-toggle:checked + #menu-icon + .navbar {
   display: flex;
 }
@@ -105,8 +119,6 @@ section {
   font-weight: 700;
   cursor: pointer;
   transition: 0.3s ease;
-  margin-left: 5%;
-  margin-top: 1%;
 }
 
 .logo:hover {
