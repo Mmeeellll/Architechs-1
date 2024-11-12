@@ -235,7 +235,7 @@ span {
 
 .menubtn a:hover {
   transform: scale(1.2) translateY(-10px);
-  background-color: var(--snd-bg-color);
+  background-color: yellow;
   color: var(--bg-color);
   box-shadow: 0 0 25px var(--snd-bg-color);
 }
